@@ -21,7 +21,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
     registerWithEureka: false
-    preferSameZoneEureka: true
+    preferSameZoneEureka: true # 게이트웨이가 같은 존에 있는 클라이언트 애플리케이션 인스턴스를 선호하게 하려면 True
   instance:
     metadataMap:
       zone: zone1
