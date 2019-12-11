@@ -9,10 +9,10 @@ public class ClientController {
 
 	@Value("${spring.profiles}")
 	private String zone;
-	
+
 	@GetMapping("/ping")
 	public String ping() {
 		return "I'm in zone " + zone;
 	}
-	
+
 }
